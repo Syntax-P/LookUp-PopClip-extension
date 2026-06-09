@@ -1,0 +1,13 @@
+# popclip
+name: LookUp Dictionary
+identifier: com.squircleapps.lookup.popclip
+icon: iconify:mdi:book-search-outline
+description: Look up the selected word in the LookUp – English Dictionary app.
+app:
+  name: LookUp - English Dictionary
+  link: https://apps.apple.com/us/app/lookup-english-dictionary/id872564448
+  bundle identifiers: [com.squircleapps.lookup, com.squircle.LookUp-Universal]
+actions:
+  - title: Look Up in LookUp
+    icon: iconify:mdi:book-search-outline
+    shell script file: search.sh
