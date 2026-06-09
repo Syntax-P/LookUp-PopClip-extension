@@ -30,7 +30,7 @@ Select any word, click the book icon in PopClip, and the extension will:
 
 ## How it works
 
-PopClip sets `$POPCLIP_TEXT` to the selected word. `search.sh` copies it to the clipboard, then uses AppleScript with `System Events` to automate the LookUp UI — focusing the search field (`⌘F`), pasting the word (`⌘V`), and pressing Enter:
+PopClip sets `$POPCLIP_TEXT` to the selected word. `search.sh` copies it to the clipboard, then uses AppleScript with `System Events` to automate the LookUp UI - focusing the search field (`⌘F`), pasting the word (`⌘V`), and pressing Enter.
 
 A `sleep 1` pause after `open -a "LookUp"` gives the app time to fully load before AppleScript tries to interact with it. The delays between keystrokes ensure the UI keeps up.
 
